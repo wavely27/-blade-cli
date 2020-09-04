@@ -1,4 +1,5 @@
 ## @Blade/cli
 
-b init
-b init -c <configPath>
+#### b init
+
+#### b init -c <configPath>

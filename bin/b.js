@@ -5,8 +5,10 @@ const pkg = require('../package.json')
 
 program
   .version(pkg.version)
-  .usage('<Command> [Project Name]')
-  .command('init', 'Initial Project')
+  .usage('<Command> <Project Name>')
+  .command('init <projectName>', 'Initial Project')
+  .alias('i')
+  .parse()
 
 function printHelp() {
   console.log()
@@ -14,5 +16,3 @@ function printHelp() {
   console.log()
   console.log('Help End')
 }
-
-console.log('B End')

@@ -1,7 +1,7 @@
 {
   "name": "@blade/cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "cli",
   "private": "true",
   "bin": {
     "b": "./bin/b.js"
